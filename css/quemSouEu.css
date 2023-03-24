@@ -100,3 +100,31 @@ h1 {
     background-image: url('../img/img_0001.png');
 }
 /*#endregion IMAGEM */
+
+/*#region PROGRESSO */
+.progresso {
+    display: flex;
+    width: 500px;
+    height:30px;
+    margin: 10px;
+    background-color: #c9c9c9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #888;
+}
+
+.progresso div{
+    width: 20%;
+    height: 30px;
+    background-color: #fff;
+    margin-right:  1px;
+}
+
+#progresso-01{
+    margin-left: 0;
+    border-radius: 10px 0 0 10px;
+}
+#progresso-05 {
+    margin-right: 0;
+    border-radius: 0 10px 10px 0;
+}
+/*#endregion PROGRESSO */
